@@ -17,7 +17,7 @@ with open("README.rst") as readme:
 
 setup(
     name="sumy",
-    version="0.4.0",
+    version="0.4.1",
     description="Module for automatic summarization of text documents and HTML pages.",
     long_description=long_description,
     author="Michal Belica",
@@ -73,16 +73,18 @@ setup(
         ]
     },
     classifiers=[
-        "Development Status :: 3 - Beta",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Education",
         "License :: OSI Approved :: Apache Software License",
 
         "Natural Language :: Czech",
-        "Natural Language :: Slovak",
         "Natural Language :: English",
-        "Natural Language :: German",
         "Natural Language :: French",
+        "Natural Language :: German",
+        "Natural Language :: Portuguese",
+        "Natural Language :: Slovak",
+        "Natural Language :: Spanish",
 
         "Topic :: Education",
         "Topic :: Internet",
